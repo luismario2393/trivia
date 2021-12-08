@@ -1,6 +1,6 @@
 :root {
-  --backgrounGray: #e0e0e0;
-  --bluePrymary: #04aae6;
+  --background: #2e1d5f;
+  --button-primary: #5a37bc;
 }
 
 html {
@@ -15,23 +15,8 @@ html {
 body {
   margin: 0;
   font-family: "Baloo Bhaijaan 2", cursive;
-  background-color: var(--backgrounGray);
 }
-h1,
-h2,
-h3 {
-  margin: 0 0 2rem 0;
-  line-height: 1.5;
-  font-size: 3rem;
-}
-h1,
-h2 {
-  font-weight: 700;
-}
-p {
-  margin: 0;
-  font-size: 2.5rem;
-}
+
 ul {
   list-style: none;
   margin: 0;
@@ -41,6 +26,9 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 76rem;
+  max-width: 76rem;
   margin: 0 auto;
+}
+.background-blue {
+  background-color: var(--background);
 }
